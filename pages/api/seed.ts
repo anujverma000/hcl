@@ -1,5 +1,5 @@
 // Mocked list of assets
-const assets = [
+export const assets = [
   { id: 1, name: "AAPL", symbol: "AAPL", price: 175.5 },
   { id: 2, name: "MSFT", symbol: "MSFT", price: 320.0 },
   { id: 3, name: "TSLA", symbol: "TSLA", price: 250.75 },
@@ -12,4 +12,10 @@ const assets = [
   { id: 10, name: "NVDA", symbol: "NVDA", price: 450.0 },
 ];
 
-export default assets;
+export const holdings = [
+  { id: 1, symbol: 'AAPL', quantity: 25 },
+  { id: 2, symbol: 'MSFT', quantity: 30 },
+  { id: 3, symbol: 'TSLA', quantity: 20 },
+  { id: 4, symbol: 'AMZN', quantity: 10 },
+  { id: 5, symbol: 'GOOGL', quantity: 15 },
+];

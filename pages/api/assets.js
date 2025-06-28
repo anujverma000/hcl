@@ -1,4 +1,4 @@
-import assets from './seed.ts'
+import { assets } from "./seed";
 
 function updatePrices() {
   const randomIndex = Math.floor(Math.random() * assets.length);
